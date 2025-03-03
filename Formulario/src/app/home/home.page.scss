@@ -1,6 +1,6 @@
 ion-item {
   position: relative;
-  padding-top: 15px; /* Espacio para el label */
+  padding-top: 15px; 
   --border-radius: 10px;
   --inner-padding-end: 10px;
   margin-bottom: 15px;
@@ -10,17 +10,17 @@ ion-item {
 
 ion-label {
   position: absolute;
-  top: -10px; /* Mueve el label más arriba */
+  top: -10px;
   left: 10px;
   font-size: 14px;
   font-weight: bold;
-  color: #a00; /* Evita que el texto se mezcle con el input */
+  color: #a00;
   padding: 0 5px;
   transition: all 0.2s ease-in-out;
 }
 
 ion-input {
-  margin-top: 5px; /* Ajuste para separar el input del label */
+  margin-top: 5px; 
   border: 2px solid #ff0000;
   border-radius: 10px;
   padding: 0.8rem 1rem;
